@@ -1,0 +1,85 @@
+body{
+    color: rgb(61, 61, 61);
+}
+.landing{
+    background:url(https://womeninnews-dev.s3.eu-west-1.amazonaws.com/Posts/1585843000PHsKSN.png);
+    padding: 20px 10px;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    height: 400px;
+    
+}
+.landing .left{
+    align-self: center;
+}
+.landing .left h3{
+    color: rgb(255, 255, 255);
+    font-weight: 800;
+}
+.landing .left p{
+    color: rgb(235, 232, 232);
+    font-size: 20px;
+    font-weight: 600;
+}
+.landing .left .btn-new{
+    padding: 15px;
+    border: none;
+    background: rgb(7, 93, 206);
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+    box-shadow: 1px 1px 5px rgb(39, 16, 143);
+    text-decoration: none;
+}
+.landing .left .btn-new:hover{
+    color: white;
+    box-shadow: none;
+    font-size: 15px;
+
+}
+
+section{
+    box-shadow: 1px 1px 5px rgb(199, 198, 198);
+    padding: 15px 15px 60px 15px;
+    margin-bottom: 15px;
+}
+.history{
+    color: rgb(29, 27, 27);
+}
+.des{
+    background-color: rgb(73, 22, 22);
+    padding: 10px;
+    margin-top: 10px;
+    border-radius: 15px;
+    color: rgb(240, 232, 232);
+}
+.sym{
+    background-color: rgb(28, 15, 207);
+    padding: 10px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    border-radius: 15px;
+    color: rgb(240, 232, 232);
+}
+.pre{
+    background-color: rgb(9, 182, 61);
+    padding: 10px;
+    margin-top: 10px;
+    border-radius: 15px;
+    color: rgb(240, 232, 232);
+}
+footer{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    padding: 20px;
+    color: white;
+    background-color: rgb(41, 39, 39);
+    align-items: center;
+}
+footer a{
+    color: rgb(6, 246, 38);
+    font-weight: 700;
+}
